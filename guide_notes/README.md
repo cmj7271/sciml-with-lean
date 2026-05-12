@@ -1,5 +1,8 @@
 # SciML 이론-현실 연결형 학습 가이드
 
+> 이 저장소는 기존 단일 Markdown 문서를 역할별·주차별 문서로 분리한 버전입니다.  
+> 원문은 `guide_notes/archive/ORIGINAL_FULL.md`에 그대로 보존되어 있습니다.
+
 ## 빠른 참조
 
 | 상황 | 먼저 볼 문서 |
@@ -13,6 +16,19 @@
 | 폴더와 파일 역할을 확인할 때 | `guide_notes/PROJECT_STRUCTURE.md` |
 | 실제 주차별 학습 내용을 볼 때 | `guide_notes/notes/weekXX_*.md` |
 | 분리 전 원문 전체가 필요할 때 | `guide_notes/archive/ORIGINAL_FULL.md` |
+
+## LLM 사용 지표
+
+LLM은 답변 전 다음 순서로 문서를 참고한다.
+
+1. 사용자의 전체 학습 맥락이 필요하면 `guide_notes/LLM_CONTEXT.md`를 본다.
+2. 특정 주차의 핵심 질문이 필요하면 `guide_notes/CURRICULUM.md`에서 주차를 확인한 뒤 `guide_notes/notes/weekXX_*.md`를 본다.
+3. 자료 추천이 필요하면 `guide_notes/RESOURCES.md`를 본다.
+4. 답변 형식이 애매하면 `guide_notes/WORKFLOW.md`와 `guide_notes/PROMPTS.md`를 본다.
+5. Lean 4 또는 Julia의 역할이 애매하면 `guide_notes/LLM_CONTEXT.md`를 우선한다.
+6. 원문 누락 여부를 확인해야 하면 `guide_notes/archive/ORIGINAL_FULL.md`를 본다.
+
+---
 
 ## 0. 문서 목적
 
